@@ -6,14 +6,14 @@ fn main() {
     let args: Vec<String> = env::args().collect();
     let mut target: &str = "file";
     let mut mode: &str = "normal";
-    let path: &String;
 
     if args.len() < 2 {
         eprintln!("Usage: {} [-r] [-f] <path>", args[0]);
         return;
     }
 
-    let flags = &args[1];
+    let path: &String;
+    let flags: &String = &args[1];
 
     if flags.starts_with("-") {
         path = &args[2];
