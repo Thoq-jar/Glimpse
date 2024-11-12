@@ -7,5 +7,6 @@ Windows’s rm is practically useless. Whenever I inevitably have to interface w
 
 ## ls
 I hate how complex the ls command is on windows.
-## 
+## mv
+no :)
 no reason other than for fun :)
